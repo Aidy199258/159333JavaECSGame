@@ -14,7 +14,7 @@ public class Main {
 
         while(true) {
             //If puppy has no life left, Game Over.
-            if (puppy.getLife() == 0) {
+            if (puppy.getLife()) {
                 System.out.println("Game Over :( ");
                 if (RestartGame) {
                     GameControl.StartGame(puppy);
