@@ -24,6 +24,8 @@ public class Main {
                 //If player clicks Restart Game button any time
                 GameControl.StartGame(puppy);
                 RestartGame = false;
+                
+                
             }
         }
 
