@@ -7,6 +7,11 @@ public class GameControl {
 
 
     public static void StartGame(Puppy puppy){
-        puppy.setLife(puppy.MAXLIFE);
+        //Set all values at beginning of the game
+        puppy.setLife(true);
+
+        //?Position
+
+        //?Velocity
     }
 }
