@@ -1,19 +1,25 @@
 package Entities;
 
 public class Puppy {
-    public final int MAXLIFE = 3;
-    private int _Life;
-    public int Life;
+    private boolean _alive = false;
+    public boolean Alive;
 
-    public int getLife() {
-        return _Life;
+    public boolean getLife() {
+        return _alive;
     }
 
-    public void setLife(int life) {
-        _Life = life;
+    public void setLife(boolean Alive) {
+        _alive = Alive;
     }
 
-    public void Puppy(){
+    public String LifeStatus(){
+        //The status/message of puppy's life status
+        String lifestatus = null;
+        if (_alive){
+            lifestatus = "I'm a happy living puppy.";
+
+        }else {lifestatus = "Sobbing...I died...";}
+        return lifestatus;
 
 
     }
