@@ -13,13 +13,19 @@ public class Mood {
     public void setMood(String mood) {
         _Mood = mood;
     }
-
-
     //Happy after picking up a Rainbow
-    public void BecomeHappy(){
-
-    }
 
     //Sad after bumping into obstacle or falling off a cloud
-    public void BecomeSad(){}
+
+    public String PuppyMood (Mood mood){
+        String puppymood = null;
+        switch (mood.getMood()){
+            case "Happy":puppymood ="Puppy is happy!";
+                    break;
+            case "Sad": puppymood = "Puppy is sad :(.";
+                    break;
+        }
+        return puppymood;
+
+    }
 }
