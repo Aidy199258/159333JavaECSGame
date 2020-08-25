@@ -1,6 +1,5 @@
 import Entities.Puppy;
 import Systems.GameControl;
-
 import javax.swing.*;
 
 public class Main {
@@ -11,8 +10,7 @@ public class Main {
         Puppy puppy = new Puppy();
         GameControl.StartGame(puppy);
 
-        JWindow jwindow = new JWindow();
-        //jwindow.
+        new Window();
         boolean RestartGame = false;
         //......Codes for choices to restart game
 
