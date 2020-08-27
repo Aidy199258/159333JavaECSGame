@@ -7,6 +7,8 @@ public class Main {
         //This is a 2D java game called The Flying Puppy written with ECS framework
         System.out.println("The Flying Puppy");
 
+        System.out.print("Testing Testing");
+
         Puppy puppy = new Puppy();
         GameControl.StartGame(puppy);
 
@@ -24,14 +26,15 @@ public class Main {
                 System.out.println("Game Over :( ");
 
             }
-            if (RestartGame){
+            if (RestartGame) {
                 //If player clicks Restart Game button any time
                 GameControl.StartGame(puppy);
                 RestartGame = false;
-                
-                
+
+
             }
         }
 
     }
+
 }
