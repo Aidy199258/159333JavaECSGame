@@ -8,6 +8,7 @@ public class Main {
 
     public Main() {
 
+        //Testing
 
         JFrame frame = new JFrame();
         game_panel = new Game_Panel();
